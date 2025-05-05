@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/request_test"
+    android:orientation="vertical">
+
+    <!-- Horizontal layout for the arrows -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <!-- Backward arrow -->
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <!-- Spacer to push forward arrow to the end -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- Forward arrow -->
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_forward_ios_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="280dp"
+        android:text="Is your weight less than 50kg?"
+        android:textColor="#490008"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg_rs"
+        android:text="Yes"
+        android:textColor="#490008"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg_rs"
+        android:text="No"
+        android:textColor="#490008"
+        android:textStyle="bold" />
+
+    <!-- Horizontal layout for Skip text and arrow -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Skip text -->
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textColor="#490008"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Skip arrow -->
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip" />
+    </LinearLayout>
+
+</LinearLayout>

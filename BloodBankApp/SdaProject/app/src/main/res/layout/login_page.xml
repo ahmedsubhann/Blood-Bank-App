@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Welcome Back text -->
+    <TextView
+        android:id="@+id/welcomeBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:layout_marginTop="90dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#490008" />
+
+    <!-- Email/Phoneno Field -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Email/Phone Number"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColorHint="#877E7F"
+        android:textStyle="normal" />
+
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailField"
+        android:layout_marginTop="35dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColorHint="#877E7F"
+        android:textStyle="normal" />
+
+    <!-- Forgot Password -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_marginTop="30dp"
+        android:text="Forgot Password?"
+        android:textColor="#490007"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/forgotPassword"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button_burgandy"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"/>
+
+
+    <!-- OR Text -->
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#877E7F"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp" />
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleSignInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/googleSignInButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Don't have an account? Sign up HERE"
+        android:textColor="#877E7F"
+        android:background="@android:color/transparent"
+        android:textStyle="bold" />
+
+</RelativeLayout>

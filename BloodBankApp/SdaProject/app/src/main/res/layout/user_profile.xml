@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_profile_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/label_your_profile"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:background="#E6FFFFFF"
+        android:backgroundTint="#DC523B3B"
+        android:src="@drawable/ic_profilepic"
+        android:contentDescription="@string/content_description_profile_pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_name"
+        android:textColor="@color/greyy"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_bg_w"
+        android:backgroundTint="#79303A"
+        android:text="Maheera"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_name"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_email"
+        android:textColor="@color/greyy"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_bg_w"
+        android:backgroundTint="#79303A"
+        android:text="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_phone_number"
+        android:textColor="@color/greyy"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_bg_w"
+        android:backgroundTint="#79303A"
+        android:text="1234-5322124"
+        android:inputType="phone"
+        android:hint="@string/hint_phone_number"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_blood_group"
+        android:textColor="@color/greyy"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_bg_w"
+        android:backgroundTint="#79303A"
+        android:text="Q+"
+        android:inputType="text"
+        android:hint="@string/hint_blood_group"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_address"
+        android:textColor="@color/greyy"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_bg_w"
+        android:backgroundTint="#79303A"
+        android:text="somewhere?"
+        android:inputType="textPostalAddress"
+        android:hint="@string/hint_address"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="160dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg_rs"
+        android:text="@string/label_view_don_history"
+        android:textColor="#490008"
+        android:textSize="12sp" />
+
+    <!-- Horizontal layout for Logout icon and texts -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Logout icon -->
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_logout"
+            android:contentDescription="@string/content_description_logout_icon" />
+
+        <!-- Spacer for alignment -->
+        <View
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <!-- Logout text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_logout"
+            android:textColor="#490008"
+            android:textStyle="bold" />
+
+        <!-- Spacer for alignment -->
+        <View
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+        <!-- Back text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_back"
+            android:textColor="#490008"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

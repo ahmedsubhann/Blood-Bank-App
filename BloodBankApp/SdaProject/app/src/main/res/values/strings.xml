@@ -1,0 +1,70 @@
+<resources>
+    <!-- Original Strings -->
+    <string name="app_name">BloodBankMeraFinal</string>
+    <string name="create_account">Create An Account</string>
+    <string name="email_or_phone">Email/Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account_btn">Create Account</string>
+    <string name="or">OR</string>
+    <string name="sign_in_google">Sign In with Google</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="email_hint">Enter your email or phone number</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="confirm_password_hint">Re-enter your password</string>
+    <string name="create_account_content_desc">Tap to create an account</string>
+    <string name="google_sign_in_content_desc">Tap to sign in with Google</string>
+
+    <!-- Additional Strings for Form Layout -->
+    <!-- Titles and Headers -->
+    <string name="title_requests">Requests</string>
+    <string name="text_back">Back</string>
+    <string name="subtitle_request">Your request will be displayed to all the donors</string>
+
+    <!-- Form Fields -->
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="label_name">Name</string>
+    <string name="label_blood_group">Blood Group</string>
+    <string name="label_number_of_units">Number of Units</string>
+    <string name="hint_enter_units">Enter total units</string>
+    <string name="label_date">Date</string>
+    <string name="hint_enter_date">Enter date</string>
+    <string name="label_time">Time</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_hospital_name">Hospital Name</string>
+    <string name="hint_hospital_name">Enter hospital name</string>
+    <string name="label_location">Location</string>
+    <string name="hint_location">Enter your location</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="hint_phone_number">Enter your number</string>
+
+    <!-- Button Text -->
+    <string name="button_done">Done</string>
+
+    <string name="label_email">Email</string>
+    <string name="label_address">Address</string>
+    <string name="label_back">Back</string>
+    <string name="label_logout">Logout</string>
+
+    <!-- Added String Resources for Profile Layout -->
+    <string name="label_your_profile">Your Profile</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_blood_group">Enter your blood group</string>
+    <string name="hint_address">Enter your address</string>
+    <string name="label_view_don_history">View Donation History</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="content_description_profile_pic">User profile picture</string>
+    <string name="content_description_logout_icon">Logout icon</string>
+
+
+    <string name="title_donation_history">Donation History</string>
+    <string name="subtitle_donation_history">Your complete Donation History</string>
+    <string name="subtitle_notification">See received blood requests and request status</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_homepage">Save-a-Beat</string>
+    <string name="title_homepage_ic_location">Lahore</string>
+    <string name="title_homepage_text">A single pint can save three lives, a single gesture can create a million smiles.</string>
+
+</resources>
